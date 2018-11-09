@@ -1,0 +1,6 @@
+D:\Studies\SandBox\TextFormatter\TextFormatter\bin\Debug\TextFormatter.exe.config
+D:\Studies\SandBox\TextFormatter\TextFormatter\obj\Debug\TextFormatter.csprojResolveAssemblyReference.cache
+D:\Studies\SandBox\TextFormatter\TextFormatter\bin\Debug\TextFormatter.exe
+D:\Studies\SandBox\TextFormatter\TextFormatter\bin\Debug\TextFormatter.pdb
+D:\Studies\SandBox\TextFormatter\TextFormatter\obj\Debug\TextFormatter.exe
+D:\Studies\SandBox\TextFormatter\TextFormatter\obj\Debug\TextFormatter.pdb
