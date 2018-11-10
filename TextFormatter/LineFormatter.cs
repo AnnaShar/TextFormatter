@@ -16,7 +16,7 @@ namespace TextFormatter
             int numberOfGaps = numberOfWords - 1;
 
             if (numberOfGaps == 0)
-                return line.GetWord() + "\r\n";
+                return line.GetWord() + '\n';
 
             int averageGapLength = (_width - line.AllWordsLength) / numberOfGaps;
             int allGapsLength = _width - line.AllWordsLength;
@@ -28,7 +28,7 @@ namespace TextFormatter
             for (int i = numberOfBiggerGaps; i < numberOfWords - 1; i++)
                 resultLine += GetWordWithGap(line.GetWord(), averageGapLength);
 
-            resultLine += line.GetWord() + "\r\n";
+            resultLine += line.GetWord() + '\n';
             return resultLine;
         }
 
