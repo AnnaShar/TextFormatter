@@ -23,7 +23,7 @@ namespace TextFormatter
 
                 currentLine.AddWord(currentWord);
 
-                if (currentLine.Length + nextWord.Length >= width)
+                if (currentLine.Length + nextWord.Length > width)
                 {
                     resultText += lineFormatter.FormatLine(currentLine);
                     currentLine.Clear();
